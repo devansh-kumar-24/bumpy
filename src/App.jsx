@@ -5,7 +5,7 @@ import AboutUsSection from './components/AboutUsSection';
 import CustomersSection from './components/CustomersSection';
 import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
-import Chatbot from './components/Chatbot';
+import Chatbot from './components/ChatBot';
 
 function App() {
   return (
