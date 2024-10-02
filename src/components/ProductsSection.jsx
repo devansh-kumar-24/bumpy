@@ -27,19 +27,7 @@ const ProductsSection = () => (
           />
         </div>
       </div>
-      {/* Optional background styling */}
-      <style jsx>{`
-        .bg-pattern {
-          background-color: #f3f4f6;
-          background-image: 
-            radial-gradient(circle at 100% 150%, #f3f4f6 24%, #e5e7eb 24%, #e5e7eb 28%, #f3f4f6 28%, #f3f4f6 36%, #e5e7eb 36%, #e5e7eb 40%, transparent 40%, transparent),
-            radial-gradient(circle at 0    150%, #f3f4f6 24%, #e5e7eb 24%, #e5e7eb 28%, #f3f4f6 28%, #f3f4f6 36%, #e5e7eb 36%, #e5e7eb 40%, transparent 40%, transparent),
-            radial-gradient(circle at 50%  100%, #e5e7eb 10%, #f3f4f6 10%, #f3f4f6 23%, #e5e7eb 23%, #e5e7eb 30%, #f3f4f6 30%, #f3f4f6 43%, #e5e7eb 43%, #e5e7eb 50%, #f3f4f6 50%, #f3f4f6 63%, #e5e7eb 63%, #e5e7eb 71%, transparent 71%, transparent),
-            radial-gradient(circle at 100% 50%, #e5e7eb 5%, #f3f4f6 5%, #f3f4f6 15%, #e5e7eb 15%, #e5e7eb 20%, #f3f4f6 20%, #f3f4f6 29%, #e5e7eb 29%, #e5e7eb 34%, #f3f4f6 34%, #f3f4f6 44%, #e5e7eb 44%, #e5e7eb 49%, transparent 49%, transparent),
-            radial-gradient(circle at 0    50%, #e5e7eb 5%, #f3f4f6 5%, #f3f4f6 15%, #e5e7eb 15%, #e5e7eb 20%, #f3f4f6 20%, #f3f4f6 29%, #e5e7eb 29%, #e5e7eb 34%, #f3f4f6 34%, #f3f4f6 44%, #e5e7eb 44%, #e5e7eb 49%, transparent 49%, transparent);
-          background-size: 100px 50px;
-        }
-      `}</style>
+      
     </section>
   </>
 );
