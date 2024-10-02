@@ -6,6 +6,7 @@ import CustomersSection from './components/CustomersSection';
 import FAQSection from './components/FAQSection';
 import Footer from './components/Footer';
 import Chatbot from './components/ChatBot';
+import './App.css';
 
 function App() {
   return (
