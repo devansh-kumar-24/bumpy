@@ -1,9 +1,11 @@
 import FAQItem from './FAQItem';
 
 const FAQSection = () => (
-  <section className="bg-white py-20">
-    <div className="container mx-auto px-4">
-      <h2 className="text-5xl font-bold text-center text-black mb-12">FAQs</h2>
+  <section className="bg-white py-16 sm:py-20">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-black mb-8 sm:mb-12">
+        FAQs
+      </h2>
       <div className="max-w-3xl mx-auto">
         <FAQItem
           question="How does Bumpy Buddy work?"
