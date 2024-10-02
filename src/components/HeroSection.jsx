@@ -1,6 +1,6 @@
 import Designer from '../assets/2.png';
 const HeroSection = () => (
-    <section className="bg-white py-1 w-[90%] mx-auto">
+    <section className=" bg-green-50 py-1 w-[90%] mx-auto" >
       <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-center mb-20">
         <div className="lg:w-1/2 text-center lg:text-left mb-10 lg:mb-0">
           <h1 className="text-4xl lg:text-6xl font-bold text-black mb-4">Navigate Your Journey with Bumpy Buddy</h1>

@@ -14,7 +14,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-transparent'}`}>
+    <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md' : 'bg-white shadow-md'}`}>
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <a href="#" className="text-2xl font-bold text-black">Bumpy Buddy</a>
         <nav className="text-1xl hidden md:flex space-x-6">

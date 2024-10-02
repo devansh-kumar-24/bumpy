@@ -9,7 +9,7 @@ import Chatbot from './components/ChatBot';
 
 function App() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex  flex-col bg-green-50">
       <Header />
       <main>
         <HeroSection />
