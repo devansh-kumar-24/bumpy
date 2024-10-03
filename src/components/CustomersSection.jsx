@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
+import team1 from '../assets/team1.jpg'
+import team2 from '../assets/photo.jpg'
 
 // Particle component for background animation
 const Particle = ({ x, y }) => (
@@ -9,10 +11,12 @@ const Particle = ({ x, y }) => (
       left: `${x}%`,
       top: `${y}%`,
     }}
+
     animate={{
       x: [0, Math.random() * 10 - 5],
       y: [0, Math.random() * 10 - 5],
     }}
+
     transition={{
       repeat: Infinity,
       repeatType: "reverse",
@@ -30,16 +34,16 @@ const Particle = ({ x, y }) => (
 
 const teamMembers = [
   {
-    name: "John Doe",
-    role: "Product Manager",
-    image: "https://via.placeholder.com/250", // Replace with actual image URL
-    linkedin: ""
+    name: "Devansh Kumar",
+    role: "Team Member",
+    image: team2, // Replace with actual image URL
+    linkedin: "https://www.linkedin.com/in/devansh-kumar-2oo2/"
   },
   {
-    name: "Jane Smith",
-    role: "Lead Developer",
-    image: "https://via.placeholder.com/250",
-    linkedin: ""
+    name: "Bidyashree Nayak",
+    role: "Team Member",
+    image: team1,
+    linkedin: "https://www.linkedin.com/in/bidyashree-nayak-b8a933241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
   }
 ]
 
@@ -80,7 +84,7 @@ const CustomersSection = () => {
               <h3 className="text-xl font-bold text-black mb-2">{member.name}</h3>
               <p className="text-gray-500 text-lg mb-4">{member.role}</p>
               <a
-                href={member.linkedin}
+                href={member.linkedin} target='_blank'
                 className="text-blue-500 hover:text-blue-700 font-semibold underline"
               >
                 LinkedIn

@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import { motion, useAnimation, useInView } from 'framer-motion'
+import product1 from '../assets/img3.png'
+import product2 from '../assets/img2.png'
 
 const ProductCard = ({ name, description, image }) => {
   const controls = useAnimation()
@@ -43,12 +45,12 @@ const products = [
   {
     name: "Bumpy Navigator",
     description: "AI-powered navigation for smooth journeys on challenging terrains.",
-    image: "https://via.placeholder.com/300x200"
+    image: product1
   },
   {
     name: "Terrain Analyzer",
     description: "Advanced terrain analysis for optimal route planning in diverse landscapes.",
-    image: "https://via.placeholder.com/300x200"
+    image: product2
   }
 ]
 

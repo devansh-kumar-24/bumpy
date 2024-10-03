@@ -1,4 +1,4 @@
-import Designer from '../assets/2.png';
+import Designer from '../assets/Designer.png';
 
 const HeroSection = () => (
   <section className="bg-white w-[90%] mx-auto py-10">
