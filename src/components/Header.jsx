@@ -27,7 +27,7 @@ const Header = () => {
             <a
               key={item}
               href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
-              className="text-black hover:text-green-500 transition duration-300 ease-in-out"
+              className="text-black hover:text-yellow-500 transition duration-300 ease-in-out"
             >
               {item}
             </a>
@@ -43,7 +43,7 @@ const Header = () => {
             <a
               key={item}
               href={`#${item.toLowerCase().replace(/\s+/g, '-')}`}
-              className="block py-2 px-4 text-black hover:bg-green-500 hover:text-white transition duration-300 ease-in-out"
+              className="block py-2 px-4 text-black hover:bg-yellow-500 hover:text-white transition duration-300 ease-in-out"
             >
               {item}
             </a>

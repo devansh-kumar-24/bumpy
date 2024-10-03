@@ -28,7 +28,7 @@
 .products-section {
   position: relative;
   background-color: #fffbeb;
-  min-height: 100vh;
+  min-height: 80vh;
   padding: 4rem 1rem;
   overflow: hidden;
 }
@@ -52,7 +52,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 10rem;
 }
 
 .product-wrapper {
@@ -125,7 +125,7 @@
 
 .learn-more-button {
   width: 100%;
-  background-color: #10b981;
+  background-color: #f9c030;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -137,7 +137,7 @@
 }
 
 .learn-more-button:hover {
-  background-color: #059669;
+  background-color: #c6961d;
 }
 
 .particle {
@@ -163,4 +163,15 @@
   .product-wrapper {
     width: calc(33.333% - 1.333rem);
   }
+}
+
+.Customer-Section {
+
+
+ position: relative;
+  background-color: #fffbeb;
+  min-height: 50vh;
+  padding: 4rem 1rem;
+  overflow: hidden;
+
 }

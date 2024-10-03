@@ -101,7 +101,7 @@ const ProductsSection = () => {
           transition={{ duration: 0.5 }}
           className="section-title"
         >
-          Our Innovative Products
+          Our Products
         </motion.h2>
 
         <div className="products-container">
