@@ -56,7 +56,7 @@ const CustomersSection = () => {
   }, [])
 
   return (
-    <section className="bg-gray-100 py-16 sm:py-20 Customer-Section relative">
+    <section className="bg-yellow-50 py-16 sm:py-20 Customer-Section relative">
       {/* Render particles in the background */}
       {particles.map((particle, index) => (
         <Particle key={index} x={particle.x} y={particle.y} />
