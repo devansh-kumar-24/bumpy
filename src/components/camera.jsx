@@ -15,15 +15,21 @@ export default function GeotaggedImageCapture() {
   const mapRef = useRef(null);
   const dragStartY = useRef(null);
 
-  // Function to start the camera stream
+  // Function to start the camera stream with back camera preference
   const startCamera = () => {
-    navigator.mediaDevices.getUserMedia({ video: true })
+    const constraints = {
+      video: {
+        facingMode: { ideal: "environment" }  // Request the back camera
+      }
+    };
+    
+    navigator.mediaDevices.getUserMedia(constraints)
       .then(stream => {
         if (videoRef.current) {
           videoRef.current.srcObject = stream;
         }
       })
-      .catch(err => console.error("Error accessing the camera: ", err));
+      .catch(err => console.error("Error accessing the back camera: ", err));
   };
 
   useEffect(() => {
