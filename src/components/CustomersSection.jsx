@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import team1 from '../assets/team1.jpg'
 import team2 from '../assets/photo.jpg'
+import team3 from '../assets/sartaj.png'
 
 // Particle component for background animation
 const Particle = ({ x, y }) => (
@@ -44,6 +45,12 @@ const teamMembers = [
     role: "Team Member",
     image: team1,
     linkedin: "https://www.linkedin.com/in/bidyashree-nayak-b8a933241?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+  },
+  {
+    name: "Sartaj Ahmed",
+    role: "Team Mentor",
+    image: team3,
+    linkedin: "#"
   }
 ]
 
