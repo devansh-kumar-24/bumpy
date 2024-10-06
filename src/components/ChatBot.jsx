@@ -4,9 +4,9 @@ const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 md:bottom-8 md:right-8">
+    <div className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 md:bottom-8 md:right-8" >
       <button
-        className="bg-green-500 hover:bg-yellow-400 text-white p-3 sm:p-4 rounded-full shadow-lg focus:outline-none"
+        className="bg-yellow-400 hover:bg-yellow-500 text-white p-3 sm:p-4 rounded-full shadow-lg focus:outline-none"
         onClick={() => setIsOpen(!isOpen)}
       >
         Chat
