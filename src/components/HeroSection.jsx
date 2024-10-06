@@ -1,6 +1,6 @@
 import Designer from '../assets/Designer.png';
 
-const HeroSection = () => (
+const HeroSection = ({ onExploreClick }) => (
   <section className="bg-white w-[90%] mx-auto py-10">
     <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center justify-center mb-10 lg:mb-20">
       <div className="lg:w-1/2 text-center lg:text-left mb-8 lg:mb-0">
@@ -10,8 +10,11 @@ const HeroSection = () => (
         <p className="text-base sm:text-lg lg:text-2xl text-gray-600 mb-6 lg:mb-8">
           Your AI-Powered Map Companion for Seamless Exploration
         </p>
-        <button className="bg-yellow-400 text-lg sm:text-xl hover:bg-yellow-500  text-white font-bold py-3 sm:py-4 px-8 sm:px-10 rounded-lg transition duration-300">
-          Explore Now
+        <button
+          onClick={onExploreClick} // Calls the passed function when clicked
+          className="bg-yellow-400 text-lg sm:text-xl hover:bg-yellow-500 text-white font-bold py-3 sm:py-4 px-8 sm:px-10 rounded-lg transition duration-300"
+        >
+          Capture Bumps
         </button>
       </div>
       <div className="lg:w-1/2 mb-8 lg:mb-0 flex justify-center">
